@@ -7,8 +7,7 @@ julia_path  =   joinpath(
 
 job_name            =   "Preparation"
 julia_script_list   =   [
-    "FromHepMC2JLD.jl",
-    "GenerateJet.jl"
+    "FromHepMC2JetJLD.jl"
 ]
 num_cpu     =   20
 num_gpu     =   0
