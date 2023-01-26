@@ -1,0 +1,12 @@
+[submodule "ee2jj-pythia8"]
+	path = ee2jj-pythia8
+	url = git@github.com:Fenyutanchan/ee2jj-pythia8.git
+[submodule "StructParticle.jl"]
+	path = StructParticle.jl
+	url = git@github.com:Fenyutanchan/StructParticle.jl.git
+[submodule "HepMC.jl"]
+	path = HepMC.jl
+	url = git@github.com:Fenyutanchan/HepMC.jl.git
+[submodule "JetTool.jl"]
+	path = JetTool.jl
+	url = git@github.com:Fenyutanchan/JetTool.jl.git
