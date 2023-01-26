@@ -7,10 +7,11 @@ using   JetTool
 using   ProgressMeter
 using   StructParticle
 
-jet_radius      =   0.7
-hepmc_file      =   "eeqqbar.hepmc"
-event_file      =   "eeqqbar.event.jld2"
-jet_list_file  =   "eeqqbar.jet.jld2"
+jet_radius              =   0.7
+jet_energy_threshold    =   35
+hepmc_file              =   "eeqqbar.hepmc"
+event_file              =   "eeqqbar.event.jld2"
+jet_list_file           =   "eeqqbar.jet.jld2"
 
 event_list  =   read_HepMC_file(hepmc_file)
 println("File $hepmc_file is read.")
@@ -28,7 +29,7 @@ Threads.@threads for ii ∈ eachindex(event_list)
     )
 
     for jet::Jet ∈ tmp.Particles
-        if jet.Energy ≥ 35
+        if jet.Energy ≥ jet_energy_threshold
             push!(jet_list, jet)
         end
     end

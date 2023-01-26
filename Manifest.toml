@@ -178,7 +178,7 @@ uuid = "6462fe0b-24de-5631-8697-dd941f90decc"
 
 [[deps.StructParticle]]
 deps = ["JLD2", "ProgressMeter"]
-git-tree-sha1 = "5b745b148777cce7350a09ae216ccb14e9838c49"
+git-tree-sha1 = "5987e1fe13ef64c9a40f8e57734f000fc1f0879f"
 repo-rev = "master"
 repo-url = "https://github.com/Fenyutanchan/StructParticle.jl"
 uuid = "ba31282d-ba71-4615-a5c1-2453621d5387"
